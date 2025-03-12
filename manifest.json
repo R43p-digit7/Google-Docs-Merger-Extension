@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "My Super Extension",
+    "version": "1.0",
+    "description": "Merges Google Docs into a single document with formatting.",
+    "permissions": ["storage", "identity"],
+    "host_permissions": ["https://docs.google.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
